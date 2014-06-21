@@ -17,8 +17,8 @@ source=("$pkgname"::"git+$url"
         fanout.service
         fanout.conf.d)
 sha256sums=('SKIP'
-            '4eea1d7ea09daf2d45e2e5cd49aca3ec994a7370b708255627b39bf85688adae'
-            'd2159d977eabef18124210e86d62d25869f250389e52edfd071f5778285f5658')
+            '168692bdd85f072daad7324654342f853d9ec29d06bc5839f36bb1fcf6ee5445'
+            'f3a656bc8a4462e90483eabcbe0924202fcead37a50415fe66cae9f01517b46f')
 
 pkgver() {
   cd "$srcdir/$pkgname"
