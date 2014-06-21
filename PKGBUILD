@@ -2,12 +2,12 @@
 
 pkgname=fanout
 pkgver=r69.289a9ba
-pkgrel=1
-pkgdesc="A simple fanout pubsub message server"
+pkgrel=2
+pkgdesc="A simple pubsub message server"
 arch=('i686', 'x86_64')
 url="https://github.com/travisghansen/fanout"
 license=('MIT')
-depends=()
+depends=('glibc')
 makedepends=('git')
 conflicts=()
 provides=('fanout')
