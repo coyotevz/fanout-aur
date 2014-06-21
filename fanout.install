@@ -4,7 +4,7 @@ pre_install() {
     echo 'Adding group fanout'
     groupadd -f fanout
   fi
-  id fanout > /dev/null
+  id fanout &> /dev/null
   if [ $? -ne 0 ]; then
     echo 'Adding user fanout'
     useradd -r fanout -g fanout
