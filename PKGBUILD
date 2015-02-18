@@ -1,7 +1,7 @@
 # Maintainer: Augusto Roccasalva <augusto@rioplomo.com.ar>
 
 pkgname=fanout
-pkgver=r80.280e903
+pkgver=r81.9b60ebe
 pkgrel=1
 pkgdesc="A simple pubsub message server"
 arch=('i686' 'x86_64')
